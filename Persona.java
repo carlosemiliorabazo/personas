@@ -23,7 +23,7 @@ public class Persona {
         return edad;
     }
 
-    public void getHijos(){
+    public int getHijos(){
         return hijos;
     }
 
