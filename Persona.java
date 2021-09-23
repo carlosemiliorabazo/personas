@@ -1,11 +1,12 @@
 package Persona;
 
-public class Persona {gi
+public class Persona {
     private String nombre;
     private String apellidos;
     private int dniSinLetra;
     private int edad;
     private int hijos;
+    private int telefono;
 
     public String getNombre(){
         return nombre;
@@ -23,8 +24,12 @@ public class Persona {gi
         return edad;
     }
 
-    public int getHijos(){
+    public int getHijos() {
         return hijos;
+    }
+
+    public int getTelefono(){
+        return telefono;
     }
 
     public void setNombre(String nom){
@@ -48,7 +53,11 @@ public class Persona {gi
         this.edad = ed;
     }
 
-    public void setHijos(int hj){
+    public void setHijos(int hj) {
         this.hijos = hj;
+    }
+
+    public void setTelefono(int tlf){
+        this.telefono = tlf;
     }
 }
