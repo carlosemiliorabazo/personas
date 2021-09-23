@@ -3,43 +3,55 @@ package Persona;
 public class Persona {
     private String nombre;
     private String apellidos;
-    private int dniSinLetra;
+    private int dnisinletra;
     private int edad;
+    private String nacionalidad;
 
     public String getNombre(){
+
         return nombre;
     }
-
     public String getApellidos(){
+
         return apellidos;
     }
+    public int getDnisinletra(){
 
-    public int getDniSinLetra(){
-        return dniSinLetra;
+        return dnisinletra;
     }
-
     public int getEdad(){
+
         return edad;
     }
+    public String getNacionalidad(){
 
+        return nacionalidad;
+    }
     public void setNombre(String nom){
+
         this.nombre = nom;
     }
+    public void setApellidos(String apel){
 
-    public void setApellidos(String apell){
-        this.apellidos = apell;
+        this.apellidos= apel;
     }
+    public void setDnisinletra(int dni){
 
-    public void setDniSinLetra(int dni){
-        this.dniSinLetra = dni;
+        this.dnisinletra = dni;
     }
-
     public void setEdad(int ed){
-        if (ed >= 18){
-            System.out.println("Estás hecho un chaval");
-        } else {
-            System.out.println("Ya eres talludito");
-        }
+
         this.edad = ed;
     }
+    public void setNacionalidad(String nac){
+
+        this.nacionalidad = nac;
+    }
+
+
+
+
+
+
+
 }
