@@ -5,6 +5,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int telefono;
 
     public String getNombre(){
         return nombre;
@@ -20,6 +21,10 @@ public class Persona {
 
     public int getEdad(){
         return edad;
+    }
+
+    public int getTelefono(){
+        return telefono;
     }
 
     public void setNombre(String nom){
@@ -41,5 +46,9 @@ public class Persona {
             System.out.println("Ya eres talludito");
         }
         this.edad = ed;
+    }
+
+    public void setTelefono(int tlf){
+        this.telefono = tlf;
     }
 }
