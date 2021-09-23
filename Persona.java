@@ -5,6 +5,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+	private String comidaFavorita;
 
     public String getNombre(){
         return nombre;
@@ -18,12 +19,20 @@ public class Persona {
         return dniSinLetra;
     }
 
+	public string getcomidaFavorita(){
+        return dniSinLetra;
+    }
+
     public int getEdad(){
         return edad;
     }
 
     public void setNombre(String nom){
         this.nombre = nom;
+    }
+
+	public void setcomidaFavorita(String CF){
+        this.comidaFavorita= CF;
     }
 
     public void setApellidos(String apell){
