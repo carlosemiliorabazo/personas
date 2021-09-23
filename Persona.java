@@ -5,6 +5,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
+    private int peso;
 
     public String getNombre(){
         return nombre;
@@ -22,6 +23,10 @@ public class Persona {
         return edad;
     }
 
+    public int getPeso(){
+        return peso;
+    }
+
     public void setNombre(String nom){
         this.nombre = nom;
     }
@@ -32,6 +37,10 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+
+    public void setPeso(int pes){
+        this.peso = pes;
     }
 
     public void setEdad(int ed){
