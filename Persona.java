@@ -5,7 +5,7 @@ public class Persona {
     private String apellidos;
     private int dniSinLetra;
     private int edad;
-    private int hijos
+    private int hijos;
 
     public String getNombre(){
         return nombre;
