@@ -63,7 +63,12 @@ public class Persona {
   }
   
   public void setEdad(int ed){
-      this.edad = ed;
+        if (ed >= 18){
+            System.out.println("Estás hecho un chaval");
+        } else {
+            System.out.println("Ya eres talludito");
+        }
+        this.edad = ed;
   }
   
   public void setNacionalidad(String nac){
@@ -77,4 +82,5 @@ public class Persona {
   public void setTelefono(int tlf){
       this.telefono = tlf;
   }
+  
 }
