@@ -1,7 +1,6 @@
 package Persona;
 
 public class Persona {
-
   private String nombre;
   private String apellidos;
   private int dnisinletra;
@@ -11,6 +10,7 @@ public class Persona {
   private int hijos;
   private int telefono;
   private String signozodiaco;
+  private int peso;
 
   public String getNombre(){
       return nombre;
@@ -46,6 +46,10 @@ public class Persona {
 
   public String getSignozodiaco(){
         return signozodiaco;
+  }
+  
+  public int getPeso(){
+        return peso;
   }
   
   public void setNombre(String nom){
@@ -91,5 +95,9 @@ public class Persona {
       
    public void setSignozodiaco(String signozodiaco){
         this.signozodiaco = signozodiaco;
+   }
+   
+      public void setPeso(int pes){
+        this.peso = pes;
    }
 }
