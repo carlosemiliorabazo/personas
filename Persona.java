@@ -6,6 +6,8 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private String signozodiaco;
+    private int hijos;
+    private int telefono;
 
     public String getNombre(){
         return nombre;
@@ -23,8 +25,17 @@ public class Persona {
         return edad;
     }
 
+
     public String getSignozodiaco(){
         return signozodiaco;
+
+    public int getHijos() {
+        return hijos;
+    }
+
+    public int getTelefono(){
+        return telefono;
+
     }
 
     public void setNombre(String nom){
@@ -50,5 +61,13 @@ public class Persona {
             System.out.println("Ya eres talludito");
         }
         this.edad = ed;
+    }
+
+    public void setHijos(int hj) {
+        this.hijos = hj;
+    }
+
+    public void setTelefono(int tlf){
+        this.telefono = tlf;
     }
 }
