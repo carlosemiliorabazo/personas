@@ -5,7 +5,7 @@ public class Persona {
   private String apellidos;
   private int dnisinletra;
   private int edad;
-	private String comidaFavorita;
+  private String comidaFavorita;
   private String nacionalidad;
   private int hijos;
   private int telefono;
@@ -22,7 +22,7 @@ public class Persona {
       return dnisinletra;
   }
 
-	public string getcomidaFavorita(){
+  public string getcomidaFavorita(){
       return dniSinLetra;
   }
 
@@ -46,20 +46,20 @@ public class Persona {
       this.nombre = nom;
   }
 
-	public void setcomidaFavorita(String CF){
-        this.comidaFavorita= CF;
+  public void setcomidaFavorita(String CF){
+      this.comidaFavorita= CF;
   }
   
   public void setApellidos(String apell){
-        this.apellidos = apell;
+      this.apellidos = apell;
   }
   
   public void setApellidos(String apel){
-        this.apellidos= apel;
+      this.apellidos= apel;
   }
   
   public void setDnisinletra(int dni){
-        this.dnisinletra = dni;
+      this.dnisinletra = dni;
   }
   
   public void setEdad(int ed){
