@@ -1,57 +1,105 @@
-package Persona;
+package Persona4;
+
 
 public class Persona {
-    private String nombre;
-    private String apellidos;
-    private int dnisinletra;
-    private int edad;
-    private String nacionalidad;
+  // Poniendo un comentario
+  private String nombre;
+  private String apellidos;
+  private int dnisinletra;
+  private int edad;
+  private String comidaFavorita;
+  private String nacionalidad;
+  private int hijos;
+  private int telefono;
+  private String signozodiaco;
+  private int peso;
 
-    public String getNombre(){
+  public String getNombre(){
+      return nombre;
+  }
+  
+  public String getApellidos(){
+      return apellidos;
+  }
+  
+  public int getDnisinletra(){
+      return dnisinletra;
+  }
 
-        return nombre;
-    }
-    public String getApellidos(){
+  public string getcomidaFavorita(){
+      return dniSinLetra;
+  }
 
-        return apellidos;
-    }
-    public int getDnisinletra(){
+  public int getEdad(){
+      return edad;
+  }
+  
+  public String getNacionalidad(){
+      return nacionalidad;
+  }
 
-        return dnisinletra;
-    }
-    public int getEdad(){
+  public int getHijos() {
+      return hijos;
+  }
 
-        return edad;
-    }
-    public String getNacionalidad(){
+  public int getTelefono(){
+      return telefono;
+  }
 
-        return nacionalidad;
-    }
-    public void setNombre(String nom){
+  public String getSignozodiaco(){
+        return signozodiaco;
+  }
+  
+  public int getPeso(){
+        return peso;
+  }
+  
+  public void setNombre(String nom){
+      this.nombre = nom;
+  }
 
-        this.nombre = nom;
-    }
-    public void setApellidos(String apel){
-
-        this.apellidos= apel;
-    }
-    public void setDnisinletra(int dni){
-
-        this.dnisinletra = dni;
-    }
-    public void setEdad(int ed){
-
+  public void setcomidaFavorita(String CF){
+      this.comidaFavorita= CF;
+  }
+  
+  public void setApellidos(String apell){
+      this.apellidos = apell;
+  }
+  
+  public void setApellidos(String apel){
+      this.apellidos= apel;
+  }
+  
+  public void setDnisinletra(int dni){
+      this.dnisinletra = dni;
+  }
+  
+  public void setEdad(int ed){
+        if (ed >= 18){
+            System.out.println("Estás hecho un chaval");
+        } else {
+            System.out.println("Ya eres talludito");
+        }
         this.edad = ed;
-    }
-    public void setNacionalidad(String nac){
+  }
+  
+  public void setNacionalidad(String nac){
+      this.nacionalidad = nac;
+  }
 
-        this.nacionalidad = nac;
-    }
+  public void setHijos(int hj) {
+      this.hijos = hj;
+  }
 
-
-
-
-
-
-
+  public void setTelefono(int tlf){
+      this.telefono = tlf;
+  }
+      
+   public void setSignozodiaco(String signozodiaco){
+        this.signozodiaco = signozodiaco;
+   }
+   
+      public void setPeso(int pes){
+        this.peso = pes;
+   }
 }
