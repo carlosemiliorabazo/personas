@@ -1,6 +1,7 @@
 package Persona;
 
 public class Persona {
+  // Poniendo un comentario
   private String nombre;
   private String apellidos;
   private int dnisinletra;
