@@ -1,4 +1,4 @@
-package Persona;
+package Persona2;
 
 public class Persona {
     private String nombre;
