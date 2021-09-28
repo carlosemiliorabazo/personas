@@ -1,0 +1,2 @@
+Esta es la version del fichero adios que he tocado desde la rama master
+Esta es la nueva version del fichero editado desde nuevarama

@@ -1,4 +1,5 @@
-package Persona3;
+package Persona4;
+
 
 public class Persona {
   // Poniendo un comentario
